@@ -1,0 +1,28 @@
+.headerBlock {
+  box-shadow: none !important;
+  padding: 0 22px ;
+  .appToolBar{
+    height: inherit;
+    padding: 0;
+    button {
+      padding: 0;
+    }
+    label {
+      padding: 0;
+      margin-left: -8px;
+    }
+    button.appBarMenuIcon {
+        margin-right: auto; 
+        visibility: visible;
+        padding: 0 ;
+      }
+      
+      .appBarMerchantLogo {
+        height: 44px;
+        margin: auto; 
+      }
+}
+}
+
+  
+  

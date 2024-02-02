@@ -1,0 +1,84 @@
+ 
+.wrap {
+  padding: 0;
+  margin: 0;
+  .wrap_Head_title {
+    font-family: "League Spartan", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: normal;
+    color: #ffffff;
+    margin: 0;
+  }
+  .wrap_Sub_Head_title {
+    font-family: "League Spartan", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px !important;
+    line-height: 22px;
+    color: #ffffff;
+  }
+  .MuiInputBase-root.MuiInput-root.MuiInput-underline.MuiInputBase-colorPrimary.MuiInputBase-fullWidth.MuiInputBase-formControl {
+    font-family: "League Spartan", sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 22px;
+    color: #ffffff;
+  }
+
+  input::-webkit-outer-spin-button,
+  input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+  }
+  input[type="number"] {
+    -moz-appearance: textfield;
+    font-weight: 300;
+    font-size: 20px !important;
+    line-height: 22px; 
+    text-align: left; 
+    color: #FFFFFF;
+  }
+  .wrap_Submit {
+    font-family: "League Spartan", sans-serif;
+    background: #2e7cf6;
+    border-radius: 5px;
+    color: #fff;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    .MuiBox-root{
+      text-transform:none;
+    } 
+  }
+  .wrap_Submit:hover {
+    font-family: "League Spartan", sans-serif;
+    background: #2e7cf6;
+    border-radius: 5px;
+    color: #fff;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+  }
+  .MuiButton-fullWidth.Mui-disabled.wrap_Submit {
+    font-family: "League Spartan", sans-serif;
+    background: #393939;
+    border-radius: 5px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+  }
+  .MuiInputBase-root.MuiInput-root.MuiInput-underline.MuiInputBase-colorPrimary.MuiInputBase-fullWidth.MuiInputBase-formControl:before
+{
+  border-bottom: 2px solid #FFF;
+} 
+.MuiInputBase-root.MuiInput-root.MuiInput-underline.MuiInputBase-colorPrimary.MuiInputBase-fullWidth.MuiInputBase-formControl:after
+{
+  border-bottom: 2px solid #FFF;
+} 
+}

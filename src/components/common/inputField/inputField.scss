@@ -1,0 +1,30 @@
+.inputField {
+  input {
+    font-weight: 300; font-style: normal;
+    font-size: 15px;
+    color: #FFFFFF;
+    border-bottom: 1px solid #FFFFFF;
+    font-family: 'League Spartan', sans-serif;
+    
+    &::placeholder {
+      color: #FFFFFF !important;
+      opacity: 1 !important;
+    }
+  }
+
+  > div::before {
+    border-bottom: 1px solid #FFFFFF !important;
+  }
+
+  > div::after {
+    border-bottom: 1px solid #FFFFFF !important;
+  }
+
+  > div:hover::before {
+    border-bottom: 1px solid #FFFFFF !important;
+  }
+
+  > div:hover::after {
+    border-bottom: 1px solid #FFFFFF !important;
+  }
+}

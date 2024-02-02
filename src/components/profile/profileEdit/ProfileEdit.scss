@@ -1,0 +1,111 @@
+.container {
+  .genderGroup {
+    width: 100%;
+    display: flex;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border: 2px solid #2e7cf6;
+    overflow: hidden;
+    justify-content: space-between;
+    flex-direction: row;
+    -webkit-flex-direction: row;
+    color: #FFF;
+    -ms-flex-direction: row;
+    display: flex;
+
+    input[type="radio"] {
+      display: none;
+    }
+
+    label.male {
+      background-color: transparent;
+      border-right: 2px solid #2968ca;
+      color: #fff;
+    }
+
+    label.female {
+      background-color: transparent;
+      border-right: 2px solid transparent;
+      color: #fff;
+    }
+
+    .malebg {
+      background-color: #2e7cf6;
+      border: 2px solid transparent;
+      color: #fff;
+    }
+
+    .femalebg {
+      background-color: #2e7cf6;
+      border: 2px solid transparent;
+      color: #fff;
+    }
+
+    label {
+      width: 50%;
+      justify-content: space-between;
+      margin-left: 0px !important;
+      margin-right: 0px !important;
+      padding: 12px;
+
+      font-size: 16px;
+
+      span.MuiButtonBase-root.MuiRadio-root {
+        display: none;
+      }
+
+      span.MuiTypography-root {
+        width: 100%;
+        text-align: center;
+      }
+    }
+  }
+
+  .datePicker {
+    position: relative;
+    border-bottom: 1px solid #fff;
+    color: #fff;
+    font-size: 15px;
+    z-index: 1;
+
+    .MuiInputBase-formControl {
+      border-bottom: 1px solid #fff;
+      color: #fff;
+      font-size: 15px;
+      cursor: pointer;
+    }
+  }
+
+  .filedGender {
+    border: 2px solid #2e7cf6;
+    width: 50%;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    padding: 12px;
+    font-size: 16px;
+    color: #fff;
+    font-weight: 500;
+    display: flex;
+    background: #2e7cf6;
+    float: left;
+    justify-content: center;
+    cursor: pointer;
+  }
+
+  .gender {
+    border: 2px solid #2e7cf6;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    color: #2e7cf6;
+    width: 50%;
+    padding: 12px;
+    font-weight: 500;
+    font-size: 16px;
+    float: left;
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+  }
+}

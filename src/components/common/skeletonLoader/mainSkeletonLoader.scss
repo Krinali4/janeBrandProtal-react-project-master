@@ -1,0 +1,128 @@
+.mainSkeletonLoader {
+    max-width: 480px;
+    width: 100%;
+    margin: 0 auto;
+
+    .headerBox {
+        height: 64px;
+        padding: 15px 0;
+        position: relative;
+        background-color: #303030;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        .MuiSkeleton-root {
+            transform: scale(1, 0.97);
+        }
+
+        .logoBox {
+            width: 150px;
+        }
+
+        .logoutBtn {
+            width: 50px;
+            height: 50px;
+            top: 50%;
+            transform: translateY(-40%);
+            right: 30px;
+            position: absolute;
+        }
+    }
+
+    .wrapperBox {
+        padding: 15px;
+
+        .profileBox {
+            position: relative;
+            display: flex;
+            background: #1e1e1e;
+            border: 1px solid #303030;
+            border-radius: 5px;
+            margin-bottom: 20px;
+            padding: 15px;
+            justify-content: space-between;
+            align-items: center;
+
+            .MuiSkeleton-root {
+                transform: scale(1, 0.97);
+            }
+
+            .proInfo {
+                display: flex;
+                gap: 15px;
+                width: calc(100% - 66px);
+                align-items: center;
+
+                .profileimg {
+                    width: 66px;
+                    height: 66px;
+                }
+
+                .proTitle {
+                    width: calc(100% - 120px);
+                    display: flex;
+                    gap: 10px;
+                    flex-direction: column;
+                }
+            }
+
+            .pointBox {
+                width: 66px;
+                height: 66px;
+            }
+        }
+
+        .progressBox {
+            display: flex;
+            margin-bottom: 40px;
+            justify-content: center;
+            flex-direction: column;
+            gap: 15px;
+            text-align: center;
+
+            .MuiSkeleton-root {
+                margin: 0 auto;
+            }
+
+            .MuiSkeleton-root {
+                transform: scale(1, 0.95);
+            }
+        }
+
+        .listBox {
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+
+            .proInfo {
+                border: 1px solid #303030;
+                border-radius: 5px;
+                padding: 15px; 
+                align-items: center;
+                display: flex;
+                gap: 15px;
+
+                .profileimg {
+                    width: 66px;
+                    height: 66px;
+                }
+
+                .proTitle {
+                    width: calc(100% - 120px);
+                    display: flex;
+                    gap: 10px;
+                    flex-direction: column;
+                }
+            }
+
+            .MuiSkeleton-root {
+                transform: scale(1, 0.97);
+            }
+        }
+    }
+
+    .MuiSkeleton-root {
+        background-color: rgba(255, 255, 255, 0.3);
+    }
+}

@@ -1,0 +1,109 @@
+.uploadLogo {
+  display: flex;
+  align-items: end;
+  justify-content: center;
+  padding-top: 17px;
+  position: relative;
+}
+.editIcon {
+  position: absolute;
+  z-index: 1;
+  bottom: -8px;
+}
+.userImg{
+  text-align: center;
+  position: absolute;
+  z-index: 1;
+  margin-bottom: 0!important;
+  p{
+    font-size: 25px;
+  }
+}  
+.imageHandler {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  input[type="file"] {
+    display: block;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    opacity: 0;
+    cursor: pointer;
+    z-index: 1;
+  }
+  .label {
+    width: 100%;
+    margin-top: 1rem;
+    display: flex;
+    justify-content: center;
+  }
+  margin-top: 12px;
+  position: relative;
+  width: 45%;
+  margin: auto;
+  .img-holder-active {
+    border: 1px dashed #b8b8b8;
+    border-radius: 11px;
+    position: relative;
+    padding: 5px;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin: auto;
+    background-color: #efefef;
+  }
+  .img-holder-active img {
+    width:100%;
+    display: flex;
+    object-fit: contain;
+    justify-content: center;
+    align-items: center;
+    height: 90px;
+    margin: auto;
+  }
+  .deleteIcon {
+    position: absolute;
+    right: -28px;
+    border-radius: 50px;
+    cursor: pointer;
+    color: #fff;
+    width: 32px;
+    height: 39px;
+    z-index: 999;
+    top: -7px;
+  }
+  .uploadLogo_main .img-holder img {
+    width: 60%;
+  }
+  .img-holder {
+    border: 1px dashed #228df2;
+    background-color: #228df2;
+    border-radius: 11px;
+    position: relative;
+    padding: 5px;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    margin: auto;
+    .img {
+      width: 50%;
+      height: 70px;
+      display: flex;
+      justify-content: center;
+      position: absolute;
+      top: 0;
+      right: 0;
+      text-align: center;
+      bottom: 0;
+      margin: auto;
+      left: 0;
+      align-items: center;
+    }
+  }
+}

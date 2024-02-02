@@ -1,0 +1,121 @@
+.couponData {
+    background: #EBEBEB;
+    border-radius: 10px 10px 0px 0px;
+    width: 100%;
+
+    .couponTopBox {
+        text-align: center;
+        padding: 12px 21px;
+        min-height: 231px;
+
+        .couponHeader {
+            img {
+                cursor: pointer;
+            }
+
+            .coupponHeading {
+                font-weight: 600;
+                font-size: 22px;
+                line-height: 22px;
+                align-items: center;
+                text-align: center;
+                color: #000000;
+                margin: 23px 0 30px;
+            }
+        }
+
+        .couponContent {
+            min-height: 215px;
+            max-height: 215px;
+            scrollbar-width: thin;
+            overflow-y: auto;
+
+            .borderLine {
+                margin-bottom: 26px;
+            }
+
+            .couponContentRow {
+                display: flex;
+                gap: 5px;
+                margin-bottom: 20px;
+                text-align: left;
+
+                h2 {
+                    font-weight: 600;
+                    font-size: 18px;
+                    line-height: 22px;
+                    color: #000000;
+                    white-space: nowrap;
+
+                    span {
+                        display: block;
+                        font-weight: 400;
+                        font-size: 13px;
+                        text-align: left;
+                    }
+                }
+
+                p {
+                    font-weight: 400;
+                    font-size: 18px;
+                    line-height: 22px;
+                    color: #000000;
+                }
+            }
+
+        }
+    }
+
+    .couponFooter {
+        background: #303030;
+        border-radius: 10px 10px 0px 0px;
+        width: 100%;
+        padding: 16px 25px 25px;
+        text-align: center;
+
+        p {
+            font-weight: 400;
+            font-size: 18px;
+            line-height: 26px;
+            text-align: center;
+            color: #FFFFFF;
+            margin: 0 0 7px;
+        }
+
+        h3 {
+            font-weight: 500;
+            font-size: 18px;
+            line-height: 26px;
+            text-align: center;
+            color: #FFFFFF;
+            margin: 0 0 7px;
+        }
+
+        .couponCodeBox {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 15px;
+
+            h2 {
+                font-weight: 700;
+                font-size: 21px;
+                line-height: 34px;
+                color: #34A853;
+            }
+        }
+
+        .expiredCoupon {
+            h2 {
+                color: #EA4335;
+            }
+        }
+
+        .redeemedCoupon {
+            h2 {
+                color: #FBBC05;
+            }
+        }
+    }
+
+}

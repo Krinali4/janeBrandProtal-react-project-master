@@ -1,0 +1,66 @@
+.profileSkeletonLoader {
+  max-width: 480px;
+  width: 100%;
+  margin: 0 auto;
+  .profileEditBox {
+    display: flex;
+    gap: 25px;
+  }
+  .PromainBtn {
+    padding: 10px;
+  }
+
+  .MuiSkeleton-root {
+    background-color: rgba(255, 255, 255, 0.3);
+  }
+
+  .profileBox {
+    position: relative;
+    display: flex;
+    background: #1e1e1e;
+    border: 1px solid #303030;
+    border-radius: 5px;
+    margin-bottom: 35px;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    .proEditTitle {
+      display: flex;
+      gap: 10px;
+      flex-direction: column;
+      .mainSkeleton {
+        margin: 0 auto;
+      }
+    }
+    .MuiSkeleton-root {
+      transform: scale(1, 0.97);
+    }
+
+    .proInfo {
+      display: flex;
+      gap: 15px;
+      width: calc(100% - 66px);
+      align-items: center;
+
+      .profileimg {
+        width: 66px;
+        height: 66px;
+      }
+
+      .proTitle {
+        width: calc(100% - 120px);
+        display: flex;
+        gap: 10px;
+        flex-direction: column;
+      }
+    }
+
+    .MuiSkeleton-root {
+      background-color: rgba(255, 255, 255, 0.3);
+    }
+    .pointBox {
+      width: 66px;
+      height: 66px;
+    }
+  }
+}

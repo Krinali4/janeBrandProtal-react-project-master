@@ -1,0 +1,41 @@
+.rewaste-profileImg {
+  position: relative;
+  display: flex;
+  background: #1e1e1e;
+  border: 1px solid #303030;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  justify-content: left;
+  align-items: center;
+  padding: 6px 10px;
+  padding-bottom: 10px;
+  padding-top: 10px;
+}
+.profileGrid {
+margin: 15px;
+width: 50%;
+p {
+font-style:normal;
+color: #FFF;
+word-break: break-all;
+font-family: "League Spartan", sans-serif;
+font-weight: 600;
+font-size: 16px;
+line-height: 22px;
+}
+p.mob{
+font-family: "League Spartan", sans-serif!important;
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 22px;
+}
+}
+.redeemablePoints {
+  background: #ebebeb;
+  border-radius: 5px;
+  padding:7px 8px;
+  text-align: center;
+  right: 12px;
+  position:absolute;
+}

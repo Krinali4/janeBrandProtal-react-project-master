@@ -1,0 +1,53 @@
+.wrap {
+  .wrap_Head_title {
+    font-family: "League Spartan", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 22px;
+    color: #ffffff;
+  }
+
+  .wrap_Sub_Head_title {
+    font-family: "League Spartan", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 22px;
+    color: #ffffff;
+  }
+  .wrap_resend {
+    font-family: "League Spartan", sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    text-decoration-line: underline;
+    color: #2e7cf6;
+  }
+  .wrap_primmaryBTN {
+    font-family: "League Spartan", sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    color: #ffffff;
+  }
+  .otpbdr {
+    border-bottom: 1px solid red;
+    margin: 0;
+  }
+  .otpcls {
+    border-bottom: 1px solid #fff;
+    margin: 0 24px 0 0;
+    width: (calc(25% - 12px));
+    &:last-child {
+      margin: 0;
+    }
+  }
+  .otp-in > div{
+    justify-content: space-between;
+  }
+}
